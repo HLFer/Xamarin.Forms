@@ -63,6 +63,7 @@ namespace Xamarin.Forms.Core.UITests
 		public static readonly string Entry = "UITextField";
 		public static readonly string Frame = "view:'Xamarin_Forms_Platform_iOS_FrameRenderer'";
 		public static readonly string Image = "UIImageView";
+		public static readonly string ImageButton = "UIButton";
 		public static readonly string Label = "UILabel";
 		public static readonly string ListView = "UITableView";
 		public static readonly string Map = "MKMapView";
@@ -86,6 +87,7 @@ namespace Xamarin.Forms.Core.UITests
 		public static readonly string Entry = "xamarin.forms.platform.android.EntryEditText";
 		public static readonly string Frame = "xamarin.forms.platform.android.appcompat.FrameRenderer";
 		public static readonly string Image = "android.widget.ImageView";
+		public static readonly string ImageButton = "android.widget.ImageButton";
 		public static readonly string Label = "android.widget.TextView";
 		public static readonly string ListView = "android.widget.ListView";
 		public static readonly string Map = "android.gms.maps.GoogleMap";

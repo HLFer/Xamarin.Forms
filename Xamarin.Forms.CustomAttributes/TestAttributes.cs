@@ -543,6 +543,23 @@ namespace Xamarin.Forms.CustomAttributes
 			Fill
 		}
 
+		public enum ImageButton
+		{
+			Source,
+			Aspect,
+			IsOpaque,
+			IsLoading,
+			AspectFill,
+			AspectFit,
+			Fill,
+			BorderColor,
+			BorderRadius,
+			BorderWidth,
+			Clicked,
+			Command,
+			Image
+		}
+
 		public enum ImageSource
 		{
 			FromFile,

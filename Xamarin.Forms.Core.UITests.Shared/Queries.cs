@@ -24,6 +24,7 @@ namespace Xamarin.Forms.Core.UITests
 		public const string EntryGallery = "* marked:'Entry Gallery'";
 		public const string FrameGallery = "* marked:'Frame Gallery'";
 		public const string ImageGallery = "* marked:'Image Gallery'";
+		public const string ImageButtonGallery = "* marked:'Image Button Gallery'";
 		public const string LabelGallery = "* marked:'Label Gallery'";
 		public const string ListViewGallery = "* marked:'ListView Gallery'";
 		public const string OpenGLViewGallery = "* marked:'OpenGLView Gallery'";
@@ -84,6 +85,7 @@ namespace Xamarin.Forms.Core.UITests
 		public static readonly string Entry = PlatformViews.Entry;
 		public static readonly string Frame = PlatformViews.Frame;
 		public static readonly string Image = PlatformViews.Image;
+		public static readonly string ImageButton = PlatformViews.ImageButton;
 		public static readonly string Label = PlatformViews.Label;
 		public static readonly string ListView = PlatformViews.ListView;
 		public static readonly string Map = PlatformViews.Map;
