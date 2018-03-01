@@ -69,21 +69,21 @@ namespace Xamarin.Forms.Core.UITests
 		public void BorderColor()
 		{
 			//TODO iOS
-			var remote = new ViewContainerRemote(App, Test.ImageButton.BorderColor, PlatformViewType);
+            var remote = new ViewContainerRemote(App, Test.ImageButton.CornerRadius, PlatformViewType);
 			remote.GoTo();
 		}
 
 		[Test]
-		[UiTest(typeof(ImageButton), "BorderRadius")]
+		[UiTest(typeof(ImageButton), "CornerRadius")]
 		[UiTestBroken(BrokenReason.CalabashAndroidUnsupported, "Figure out how to get Android Drawables")]
-		public void BorderRadius()
+        public void CornerRadius()
 		{
-			var remote = new ViewContainerRemote(App, Test.ImageButton.BorderRadius, PlatformViewType);
+            var remote = new ViewContainerRemote(App, Test.ImageButton.CornerRadius, PlatformViewType);
 			remote.GoTo();
 
 #if __IOS__
-			var borderRadius = remote.GetProperty<float>(ImageButton.CornerRadiusProperty);
-			Assert.AreEqual(20.0f, borderRadius);
+			var cornerRadius = remote.GetProperty<float>(ImageButton.CornerRadiusProperty);
+            Assert.AreEqual(20.0f, cornerRadius);
 #endif
 		}
 

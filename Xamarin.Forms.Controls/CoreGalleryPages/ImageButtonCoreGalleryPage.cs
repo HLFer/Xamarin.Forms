@@ -42,7 +42,7 @@ namespace Xamarin.Forms.Controls
 				}
 			);
 
-			var borderRadiusContainer = new ViewContainer<ImageButton>(Test.ImageButton.BorderRadius,
+			var borderRadiusContainer = new ViewContainer<ImageButton>(Test.ImageButton.CornerRadius,
 				new ImageButton
 				{
 					Source = "oasissmall.jpg",
@@ -79,7 +79,7 @@ namespace Xamarin.Forms.Controls
 				}
 			);
 
-			var imageContainer = new ViewContainer<ImageButton>(Test.Button.Image,
+            var imageContainer = new ViewContainer<ImageButton>(Test.ImageButton.Image,
 				new ImageButton
 				{
 					Source = new FileImageSource { File = "bank.png" }

@@ -553,7 +553,7 @@ namespace Xamarin.Forms.CustomAttributes
 			AspectFit,
 			Fill,
 			BorderColor,
-			BorderRadius,
+            CornerRadius,
 			BorderWidth,
 			Clicked,
 			Command,
